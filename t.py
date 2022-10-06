@@ -1,2 +1,3 @@
 #! /usr/bin/python
-print("s")
+print("sss")
+print("helloworld")
