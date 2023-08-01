@@ -1,0 +1,3 @@
+config_id,config_vector_name,config_vector_comment,config_vector_value
+118,logs_max_size,,31457280
+283,logs_max_size,,31457280
