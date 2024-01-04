@@ -1,0 +1,816 @@
+config,config_id,config_vector,config_vector_id,config_vector_comment,config_vector_value
+val bmra remote_fp,22,installer,434,,ra
+val bmra remote_fp,22,reservation_client_os,435,,true
+val bmra remote_fp,22,reservation_config,436,,reserve_cfg
+val bmra remote_fp,22,profile,453,,remote_fp
+val bmra remote_fp,22,robot_tag,1019,,BMRA_Remotefp_Berta
+val bmra remote_fp,22,logs_max_size,5972,,41943040
+val bmra full_nfv,23,installer,454,,ra
+val bmra full_nfv,23,reservation_client_os,455,,true
+val bmra full_nfv,23,reservation_config,456,,reserve_cfg
+val bmra full_nfv,23,profile,473,,full_nfv
+val bmra full_nfv,23,robot_tag,1020,,BMRA_Full_nfv_Berta
+val bmra full_nfv,23,logs_max_size,5941,,41943040
+val bmra full_nfv,23,assigned_worknodes,6396,,"ao09-21-fcp,ao09-23-fcp,ao09-25-fcp,ao09-27-fcp"
+val bmra full_nfv,23,unconfirmed_cpu_models,6609,,"['5418N', '8468H']"
+val bmra on_prem,26,installer,574,,ra
+val bmra on_prem,26,reservation_client_os,575,,true
+val bmra on_prem,26,reservation_config,576,,reserve_cfg
+val bmra on_prem,26,profile,593,,on_prem
+val bmra on_prem,26,robot_tag,1018,,BMRA_On_prem_Berta
+val bmra on_prem,26,logs_max_size,5962,,41943040
+val bmra basic (k8s_n-1),36,installer,952,,ra
+val bmra basic (k8s_n-1),36,reservation_client_os,953,,true
+val bmra basic (k8s_n-1),36,reservation_config,954,,reserve_cfg
+val bmra basic (k8s_n-1),36,profile,971,,basic
+val bmra basic (k8s_n-1),36,kube_version_offset,974,,n-1
+val bmra basic (k8s_n-1),36,robot_tag,1032,,BMRA_BASIC_Berta
+val bmra basic (k8s_n-1),36,logs_max_size,5938,,41943040
+val bmra basic (calico_vpp),37,installer,1041,,ra
+val bmra basic (calico_vpp),37,reservation_client_os,1042,,true
+val bmra basic (calico_vpp),37,reservation_config,1043,,reserve_cfg
+val bmra basic (calico_vpp),37,profile,1060,,basic
+val bmra basic (calico_vpp),37,robot_tag,1070,,BMRA_BASIC_Berta
+val bmra basic (calico_vpp),37,logs_max_size,5961,,41943040
+val bmra basic (calico_vpp),37,calico_vpp.enabled,6516,enable calico vpp,true
+val bmra basic (calico_vpp),37,kube_network_plugin,6589,enable calico_vpp,cni
+val bmra basic (calico_vpp),37,kube_network_plugin_multus,6591,enable calico vpp,false
+val bmra basic (calico_vpp),37,hugepages_enabled,6592,enable calico vpp,true
+val bmra basic (calico_vpp),37,number_of_hugepages_1G,6593,enable calico vpp,16
+val bmra basic (calico_vpp),37,unconfirmed_cpu_models,6594,,['8468H']
+val bmra basic (calico_vpp),37,install_dpdk,6697,,true
+val bmra reg_dc,51,installer,1454,,ra
+val bmra reg_dc,51,reservation_client_os,1455,,true
+val bmra reg_dc,51,reservation_config,1456,,reserve_cfg
+val bmra reg_dc,51,profile,1473,,regional_dc
+val bmra reg_dc,51,robot_tag,1483,,BMRA_Regional_Berta
+val bmra reg_dc,51,logs_max_size,5968,,41943040
+val bmra basic (redeploy),80,installer,2497,,ra
+val bmra basic (redeploy),80,reservation_client_os,2498,,true
+val bmra basic (redeploy),80,reservation_config,2499,,reserve_cfg
+val bmra basic (redeploy),80,profile,2514,,basic
+val bmra basic (redeploy),80,robot_tag,2521,,BMRA_BASIC_Berta
+val bmra basic (redeploy),80,redeploy,2524,,true
+val bmra basic (redeploy),80,logs_max_size,5939,,41943040
+val bmra basic (docker),81,installer,2580,,ra
+val bmra basic (docker),81,reservation_client_os,2581,,true
+val bmra basic (docker),81,reservation_config,2582,,reserve_cfg
+val bmra basic (docker),81,profile,2597,,basic
+val bmra basic (docker),81,robot_tag,2604,,BMRA_BASIC_Berta
+val bmra basic (docker),81,kube_runtime,2608,,docker
+val bmra basic (docker),81,logs_max_size,5935,,41943040
+val bmra basic (flannel),88,installer,2915,,ra
+val bmra basic (flannel),88,reservation_client_os,2916,,true
+val bmra basic (flannel),88,reservation_config,2917,,reserve_cfg
+val bmra basic (flannel),88,profile,2932,,basic
+val bmra basic (flannel),88,robot_tag,2939,,BMRA_BASIC_Berta
+val bmra basic (flannel),88,kube_network,2945,,flannel
+val bmra basic (flannel),88,logs_max_size,5937,,41943040
+val bmra basic (crio),89,installer,2946,,ra
+val bmra basic (crio),89,reservation_client_os,2947,,true
+val bmra basic (crio),89,reservation_config,2948,,reserve_cfg
+val bmra basic (crio),89,profile,2963,,basic
+val bmra basic (crio),89,robot_tag,2970,,BMRA_BASIC_Berta
+val bmra basic (crio),89,kube_runtime,2974,,crio
+val bmra basic (crio),89,logs_max_size,5936,,41943040
+val bmra full_nfv (crio),90,installer,2977,,ra
+val bmra full_nfv (crio),90,reservation_client_os,2978,,true
+val bmra full_nfv (crio),90,reservation_config,2979,,reserve_cfg
+val bmra full_nfv (crio),90,profile,2994,,full_nfv
+val bmra full_nfv (crio),90,robot_tag,3003,,BMRA_Full_nfv_Berta
+val bmra full_nfv (crio),90,kube_runtime,3007,,crio
+val bmra full_nfv (crio),90,logs_max_size,5949,,41943040
+val bmra full_nfv (crio),90,kubernetes_power_manager.build_image_locally,6186,,true
+val bmra full_nfv (crio),90,assigned_worknodes,6401,,"ao09-21-fcp,ao09-23-fcp,ao09-25-fcp,ao09-27-fcp"
+val bmra basic,104,installer,3432,,ra
+val bmra basic,104,reservation_client_os,3433,,true
+val bmra basic,104,reservation_config,3434,,reserve_cfg
+val bmra basic,104,profile,3449,,basic
+val bmra basic,104,robot_tag,3456,,BMRA_BASIC_Berta
+val bmra basic,104,logs_max_size,5932,,41943040
+val bmra on_prem (minio_no_kmra),107,installer,3527,,ra
+val bmra on_prem (minio_no_kmra),107,reservation_client_os,3528,,true
+val bmra on_prem (minio_no_kmra),107,reservation_config,3529,,reserve_cfg
+val bmra on_prem (minio_no_kmra),107,profile,3544,,on_prem
+val bmra on_prem (minio_no_kmra),107,robot_tag,3553,,BMRA_On_prem_Berta
+val bmra on_prem (minio_no_kmra),107,kube_runtime,3557,,crio
+val bmra on_prem (minio_no_kmra),107,minio_enabled,3561,,true
+val bmra on_prem (minio_no_kmra),107,flow_config,4692,,false
+val bmra on_prem (minio_no_kmra),107,sgx_signer,4789,dependent on sgx/tcs,false
+val bmra on_prem (minio_no_kmra),107,service_mesh_profile,4790,dependent on sgx_signer,default
+val bmra on_prem (minio_no_kmra),107,minio_vf,5250,,false
+val bmra on_prem (minio_no_kmra),107,kube_network_backend,5251,,vxlan
+val bmra on_prem (minio_no_kmra),107,logs_max_size,5959,,41943040
+val bmra on_prem (minio_no_kmra),107,kubernetes_power_manager.build_image_locally,6187,,true
+val bmra on_prem (minio_no_kmra),107,minio_tenant_servers,6424,,2
+val bmra on_prem (minio_no_kmra),107,pccs,6526,disable kmra,false
+val bmra on_prem (minio_no_kmra),107,apphsm,6527,disable kmra,false
+val bmra on_prem (minio_no_kmra),107,ctk_loadkey_demo,6528,disable kmra,false
+val bmra on_prem (minio_no_kmra),107,assigned_worknodes,6542,force worknode with same nic interance,"ak09-13-inspur-egs,ak09-07-inspur-egs,ak09-09-inspur-egs"
+val bmra on_prem (minio_no_kmra),107,tac,6558,disable kmra,false
+val bmra build_your_own,109,installer,3564,,ra
+val bmra build_your_own,109,reservation_client_os,3565,,true
+val bmra build_your_own,109,reservation_config,3566,,reserve_cfg
+val bmra build_your_own,109,profile,3581,,build_your_own
+val bmra build_your_own,109,robot_tag,3588,,BMRA_Minimal_Berta
+val bmra build_your_own,109,logs_max_size,5940,,41943040
+val vmra basic,110,installer,3595,,ra_vm
+val vmra basic,110,reservation_client_os,3596,,true
+val vmra basic,110,reservation_config,3597,,reserve_cfg
+val vmra basic,110,profile,3612,,basic
+val vmra basic,110,robot_tag,3616,,VMRA_BASIC_Berta
+val vmra basic,110,vmra,3626,,true
+val vmra basic,110,logs_max_size,5973,,41943040
+val vmra basic,110,unconfirmed_cpu_models,6612,,"['5418N', '8468H']"
+val vmra build_your_own,129,installer,3958,,ra_vm
+val vmra build_your_own,129,reservation_client_os,3959,,true
+val vmra build_your_own,129,reservation_config,3960,,reserve_cfg
+val vmra build_your_own,129,profile,3961,,build_your_own
+val vmra build_your_own,129,robot_tag,3963,,VMRA_Minimal_Berta
+val vmra build_your_own,129,vmra,3965,,true
+val vmra build_your_own,129,logs_max_size,5976,,41943040
+val vmra full_nfv,130,installer,3968,,ra_vm
+val vmra full_nfv,130,reservation_client_os,3969,,true
+val vmra full_nfv,130,reservation_config,3970,,reserve_cfg
+val vmra full_nfv,130,profile,3971,,full_nfv
+val vmra full_nfv,130,robot_tag,3972,,VMRA_Full_nfv_Berta
+val vmra full_nfv,130,vmra,3973,,true
+val vmra full_nfv,130,logs_max_size,5977,,41943040
+val vmra full_nfv,130,unconfirmed_cpu_models,6611,,"['5418N', '8468H']"
+val bmra full_nfv (no_sgx),131,installer,3975,,ra
+val bmra full_nfv (no_sgx),131,reservation_client_os,3976,,true
+val bmra full_nfv (no_sgx),131,reservation_config,3977,,reserve_cfg
+val bmra full_nfv (no_sgx),131,profile,3978,,full_nfv
+val bmra full_nfv (no_sgx),131,robot_tag,3979,,BMRA_Full_nfv_Berta
+val bmra full_nfv (no_sgx),131,sgx,3980,,false
+val bmra full_nfv (no_sgx),131,sgx_dp,3981,,false
+val bmra full_nfv (no_sgx),131,pccs,3986,dependent on sgx,false
+val bmra full_nfv (no_sgx),131,apphsm,3987,dependent on sgx,false
+val bmra full_nfv (no_sgx),131,ctk_loadkey_demo,3988,dependent on sgx,false
+val bmra full_nfv (no_sgx),131,sgx_signer,4978,dependent on sgx/tcs,false
+val bmra full_nfv (no_sgx),131,tac,4979,dependent on sgx/kmra/tcs,false
+val bmra full_nfv (no_sgx),131,tcs,4980,dependent on sgx,false
+val bmra full_nfv (no_sgx),131,service_mesh_profile,5142,dependent on sgx_signer,default
+val bmra full_nfv (no_sgx),131,logs_max_size,5958,,41943040
+val bmra full_nfv (no_sgx),131,assigned_worknodes,6405,,"ao09-21-fcp,ao09-23-fcp,ao09-25-fcp,ao09-27-fcp"
+val vmra on_prem,133,installer,3995,,ra_vm
+val vmra on_prem,133,reservation_client_os,3996,,true
+val vmra on_prem,133,reservation_config,3997,,reserve_cfg
+val vmra on_prem,133,profile,3998,,on_prem
+val vmra on_prem,133,robot_tag,3999,,VMRA_On_prem_Berta
+val vmra on_prem,133,vmra,4000,,true
+val vmra on_prem,133,logs_max_size,5992,,41943040
+val vmra regional_dc,134,installer,4001,,ra_vm
+val vmra regional_dc,134,reservation_client_os,4002,,true
+val vmra regional_dc,134,reservation_config,4003,,reserve_cfg
+val vmra regional_dc,134,profile,4004,,regional_dc
+val vmra regional_dc,134,robot_tag,4005,,VMRA_Regional_Berta
+val vmra regional_dc,134,vmra,4006,,true
+val vmra regional_dc,134,logs_max_size,5994,,41943040
+val vmra remote_fp,135,installer,4007,,ra_vm
+val vmra remote_fp,135,reservation_client_os,4008,,true
+val vmra remote_fp,135,reservation_config,4009,,reserve_cfg
+val vmra remote_fp,135,profile,4010,,remote_fp
+val vmra remote_fp,135,robot_tag,4011,,VMRA_Remotefp_Berta
+val vmra remote_fp,135,vmra,4012,,true
+val vmra remote_fp,135,logs_max_size,5996,,41943040
+val vmra full_nfv (no_sgx),147,installer,4096,,ra_vm
+val vmra full_nfv (no_sgx),147,reservation_client_os,4097,,true
+val vmra full_nfv (no_sgx),147,reservation_config,4098,,reserve_cfg
+val vmra full_nfv (no_sgx),147,profile,4099,,full_nfv
+val vmra full_nfv (no_sgx),147,robot_tag,4100,,VMRA_Full_nfv_Berta
+val vmra full_nfv (no_sgx),147,vmra,4101,,true
+val vmra full_nfv (no_sgx),147,sgx,4102,,false
+val vmra full_nfv (no_sgx),147,sgx_dp,4110,,false
+val vmra full_nfv (no_sgx),147,apphsm,4972,dependent on sgx,false
+val vmra full_nfv (no_sgx),147,ctk_loadkey_demo,4973,dependent on sgx,false
+val vmra full_nfv (no_sgx),147,pccs,4974,dependent on sgx,false
+val vmra full_nfv (no_sgx),147,tcs,4975,dependent on sgx/kmra,false
+val vmra full_nfv (no_sgx),147,tac,4976,dependent on sgx/kmra,false
+val vmra full_nfv (no_sgx),147,sgx_signer,4977,dependent on sgx/kmra,false
+val vmra full_nfv (no_sgx),147,service_mesh_profile,5154,dependent on sgx_signer,default
+val vmra full_nfv (no_sgx),147,logs_max_size,5990,,41943040
+val vmra full_nfv (no_sgx),147,cadvisor,6288,,false
+val vmra full_nfv (docker_no_sgx),158,installer,4188,,ra_vm
+val vmra full_nfv (docker_no_sgx),158,reservation_client_os,4189,,true
+val vmra full_nfv (docker_no_sgx),158,reservation_config,4190,,reserve_cfg
+val vmra full_nfv (docker_no_sgx),158,profile,4191,,full_nfv
+val vmra full_nfv (docker_no_sgx),158,robot_tag,4192,,VMRA_Full_nfv_Berta
+val vmra full_nfv (docker_no_sgx),158,vmra,4193,,true
+val vmra full_nfv (docker_no_sgx),158,sgx,4194,,false
+val vmra full_nfv (docker_no_sgx),158,sgx_dp,4195,,false
+val vmra full_nfv (docker_no_sgx),158,kube_runtime,4196,,docker
+val vmra full_nfv (docker_no_sgx),158,tac,4987,dependent on sgx/kmra,false
+val vmra full_nfv (docker_no_sgx),158,tcs,4988,dependent on sgx/kmra,false
+val vmra full_nfv (docker_no_sgx),158,sgx_signer,4989,dependent on sgx/kmra,false
+val vmra full_nfv (docker_no_sgx),158,apphsm,4990,dependent on sgx,false
+val vmra full_nfv (docker_no_sgx),158,ctk_loadkey_demo,4991,dependent on sgx,false
+val vmra full_nfv (docker_no_sgx),158,pccs,4992,dependent on sgx,false
+val vmra full_nfv (docker_no_sgx),158,service_mesh_profile,5151,dependent on sgx_signer,default
+val vmra full_nfv (docker_no_sgx),158,logs_max_size,5982,,41943040
+val vmra full_nfv (docker_no_sgx),158,kubevirt_enabled,6568,no support for docker,false
+val vmra full_nfv (docker),159,installer,4197,,ra_vm
+val vmra full_nfv (docker),159,reservation_client_os,4198,,true
+val vmra full_nfv (docker),159,reservation_config,4199,,reserve_cfg
+val vmra full_nfv (docker),159,profile,4200,,full_nfv
+val vmra full_nfv (docker),159,robot_tag,4201,,VMRA_Full_nfv_Berta
+val vmra full_nfv (docker),159,vmra,4202,,true
+val vmra full_nfv (docker),159,kube_runtime,4205,,docker
+val vmra full_nfv (docker),159,logs_max_size,5980,,41943040
+val vmra full_nfv (docker),159,kubevirt_enabled,6567,no support for docker,false
+val vmra basic (no_k8s),167,installer,4263,,ra_vm
+val vmra basic (no_k8s),167,reservation_client_os,4264,,true
+val vmra basic (no_k8s),167,reservation_config,4265,,reserve_cfg
+val vmra basic (no_k8s),167,profile,4266,,basic
+val vmra basic (no_k8s),167,robot_tag,4267,,VMRA_Basic_No_K8s
+val vmra basic (no_k8s),167,vmra,4268,,true
+val vmra basic (no_k8s),167,container_runtime_only,4270,,true
+val vmra basic (no_k8s),167,kubernetes,4271,,false
+val vmra basic (no_k8s),167,logs_max_size,5975,,41943040
+val vmra full_nfv (crio_no_sgx),168,installer,4272,,ra_vm
+val vmra full_nfv (crio_no_sgx),168,reservation_client_os,4273,,true
+val vmra full_nfv (crio_no_sgx),168,reservation_config,4274,,reserve_cfg
+val vmra full_nfv (crio_no_sgx),168,profile,4275,,full_nfv
+val vmra full_nfv (crio_no_sgx),168,robot_tag,4276,,VMRA_Full_nfv_Berta
+val vmra full_nfv (crio_no_sgx),168,vmra,4277,,true
+val vmra full_nfv (crio_no_sgx),168,sgx,4278,,false
+val vmra full_nfv (crio_no_sgx),168,sgx_dp,4279,,false
+val vmra full_nfv (crio_no_sgx),168,kube_runtime,4280,,crio
+val vmra full_nfv (crio_no_sgx),168,tac,4999,dependent on sgx/kmra,false
+val vmra full_nfv (crio_no_sgx),168,tcs,5000,dependent on sgx/kmra,false
+val vmra full_nfv (crio_no_sgx),168,sgx_signer,5001,dependent on sgx/kmra,false
+val vmra full_nfv (crio_no_sgx),168,apphsm,5002,dependent on sgx,false
+val vmra full_nfv (crio_no_sgx),168,pccs,5003,dependent on sgx,false
+val vmra full_nfv (crio_no_sgx),168,ctk_loadkey_demo,5004,dependent on sgx,false
+val vmra full_nfv (crio_no_sgx),168,service_mesh_profile,5153,dependent on sgx_signer,default
+val vmra full_nfv (crio_no_sgx),168,logs_max_size,5985,,41943040
+val vmra full_nfv (crio_no_sgx),168,cadvisor,6287,,false
+val vmra full_nfv (vpp),169,installer,4281,,ra_vm
+val vmra full_nfv (vpp),169,reservation_client_os,4282,,true
+val vmra full_nfv (vpp),169,reservation_config,4283,,reserve_cfg
+val vmra full_nfv (vpp),169,profile,4284,,full_nfv
+val vmra full_nfv (vpp),169,robot_tag,4285,,VMRA_Full_nfv_Berta
+val vmra full_nfv (vpp),169,vmra,4286,,true
+val vmra full_nfv (vpp),169,ovs_dpdk,4287,,false
+val vmra full_nfv (vpp),169,vpp,4288,,true
+val vmra full_nfv (vpp),169,logs_max_size,5991,,41943040
+val vmra full_nfv (vpp),169,example_net_attach_defs.userspace_ovs_dpdk,6585,enable vpp,false
+val vmra full_nfv (vpp),169,example_net_attach_defs.userspace_vpp,6586,enable vpp,true
+val vmra full_nfv (vpp),169,default_hugepage_size,6587,enable vpp,2M
+val vmra full_nfv (vpp),169,userspace_cni.vswitch,6588,enable vpp,vpp
+val vmra full_nfv (crio),171,installer,4299,,ra_vm
+val vmra full_nfv (crio),171,reservation_client_os,4300,,true
+val vmra full_nfv (crio),171,reservation_config,4301,,reserve_cfg
+val vmra full_nfv (crio),171,profile,4302,,full_nfv
+val vmra full_nfv (crio),171,robot_tag,4303,,VMRA_Full_nfv_Berta
+val vmra full_nfv (crio),171,vmra,4304,,true
+val vmra full_nfv (crio),171,kube_runtime,4305,,crio
+val vmra full_nfv (crio),171,logs_max_size,5983,,41943040
+val vmra full_nfv (crio),171,cadvisor,6285,,false
+val vmra basic (k8s_n-1),192,installer,4483,,ra_vm
+val vmra basic (k8s_n-1),192,reservation_client_os,4484,,true
+val vmra basic (k8s_n-1),192,reservation_config,4485,,reserve_cfg
+val vmra basic (k8s_n-1),192,profile,4486,,basic
+val vmra basic (k8s_n-1),192,robot_tag,4487,,VMRA_BASIC_Berta
+val vmra basic (k8s_n-1),192,vmra,4488,,true
+val vmra basic (k8s_n-1),192,kube_version_offset,4489,,n-1
+val vmra basic (k8s_n-1),192,logs_max_size,5974,,41943040
+val bmra basic (cilium),207,installer,4627,,ra
+val bmra basic (cilium),207,reservation_client_os,4628,,true
+val bmra basic (cilium),207,reservation_config,4629,,reserve_cfg
+val bmra basic (cilium),207,profile,4630,,basic
+val bmra basic (cilium),207,robot_tag,4631,,BMRA_BASIC_Berta
+val bmra basic (cilium),207,kube_network,4632,,cilium
+val bmra basic (cilium),207,logs_max_size,5934,,41943040
+val bmra basic (calico:bird),208,installer,4644,,ra
+val bmra basic (calico:bird),208,reservation_client_os,4645,,true
+val bmra basic (calico:bird),208,reservation_config,4646,,reserve_cfg
+val bmra basic (calico:bird),208,profile,4647,,basic
+val bmra basic (calico:bird),208,robot_tag,4648,,BMRA_BASIC_Berta
+val bmra basic (calico:bird),208,kube_network,4649,,calico
+val bmra basic (calico:bird),208,kube_network_backend,4650,,bird
+val bmra basic (calico:bird),208,logs_max_size,5933,,41943040
+val bmra full_nfv (docker),218,installer,4706,,ra
+val bmra full_nfv (docker),218,reservation_client_os,4707,,true
+val bmra full_nfv (docker),218,reservation_config,4708,,reserve_cfg
+val bmra full_nfv (docker),218,profile,4709,,full_nfv
+val bmra full_nfv (docker),218,robot_tag,4710,,BMRA_Full_nfv_Berta
+val bmra full_nfv (docker),218,kube_runtime,4711,,docker
+val bmra full_nfv (docker),218,logs_max_size,5944,,41943040
+val bmra full_nfv (docker),218,kubernetes_power_manager.build_image_locally,6188,,true
+val bmra full_nfv (docker),218,assigned_worknodes,6397,,"ao09-21-fcp,ao09-23-fcp,ao09-25-fcp,ao09-27-fcp"
+val bmra full_nfv (docker),218,kubevirt_enabled,6564,no support for docker,false
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,installer,4792,,ra
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,reservation_client_os,4793,,true
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,reservation_config,4794,,reserve_cfg
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,profile,4795,,on_prem
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,robot_tag,4796,,BMRA_On_prem_Berta
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,configure_gpu,4797,enable gpu,true
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,intel_media_analytics_enabled,4798,intel_media_analytics_enabled,true
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,intel_oneapi.basekit,5465,enable base kit,true
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,intel_oneapi.ai_analytics,5466,enable ai kit,true
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,gpu_dp_enabled,5546,enable gpu dp,true
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,intel_oneapi_enabled,5547,enable oneapi,true
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,logs_max_size,5964,,41943040
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,pccs,6529,disable kmra,false
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,apphsm,6530,disable kmra,false
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,ctk_loadkey_demo,6531,disable kmra,false
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,tac,6557,disable kmra,false
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,gpu_dp_fractional_manager,6561,enable gpu_dp,true
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,sgx_signer,6599,dependent on sgx/tcs,false
+val bmra on_prem (gpu_ma_oneapi_no_kmra),227,service_mesh_profile,6602,dependent on sgx_signer,default
+val vmra regional_dc (no_sgx),236,installer,4876,,ra_vm
+val vmra regional_dc (no_sgx),236,reservation_client_os,4877,,true
+val vmra regional_dc (no_sgx),236,reservation_config,4878,,reserve_cfg
+val vmra regional_dc (no_sgx),236,profile,4879,,regional_dc
+val vmra regional_dc (no_sgx),236,robot_tag,4880,,VMRA_Regional_Berta
+val vmra regional_dc (no_sgx),236,vmra,4881,,true
+val vmra regional_dc (no_sgx),236,sgx,4884,,false
+val vmra regional_dc (no_sgx),236,sgx_dp,4885,,false
+val vmra regional_dc (no_sgx),236,ctk_loadkey_demo,5029,dependent on sgx,false
+val vmra regional_dc (no_sgx),236,pccs,5030,dependent on sgx,false
+val vmra regional_dc (no_sgx),236,apphsm,5031,dependent on sgx,false
+val vmra regional_dc (no_sgx),236,sgx_signer,5032,dependent on sgx/kmra,false
+val vmra regional_dc (no_sgx),236,tac,5033,dependent on sgx/kmra,false
+val vmra regional_dc (no_sgx),236,tcs,5034,dependent on sgx/kmra,false
+val vmra regional_dc (no_sgx),236,service_mesh_profile,5159,dependent on sgx_signer,default
+val vmra regional_dc (no_sgx),236,logs_max_size,5995,,41943040
+val bmra access (flexran_pod_xran),240,installer,4929,,ra
+val bmra access (flexran_pod_xran),240,reservation_client_os,4930,,true
+val bmra access (flexran_pod_xran),240,reservation_config,4931,,reserve_cfg
+val bmra access (flexran_pod_xran),240,profile,4932,,access
+val bmra access (flexran_pod_xran),240,robot_tag,4933,,BMRA_Access_Berta
+val bmra access (flexran_pod_xran),240,intel_flexran_type,4934,default,pod
+val bmra access (flexran_pod_xran),240,intel_flexran_mode,4936,,xran
+val bmra access (flexran_pod_xran),240,sigstore_policy_controller_install,5514,disable sigstore in non-oran config,false
+val bmra access (flexran_pod_xran),240,intel_sriov_fec_operator_enabled,5787,disable operator as false in pod mode,false
+val bmra access (flexran_pod_xran),240,logs_max_size,5930,,41943040
+val bmra access (flexran_pod_xran),240,native_cpu_manager_enabled,6477,a known limitation for flexran spr image,false
+val bmra access (flexran_pod_xran),240,kube_runtime,6498,,containerd
+val bmra access (flexran_pod_timer),241,installer,4937,,ra
+val bmra access (flexran_pod_timer),241,reservation_client_os,4938,,true
+val bmra access (flexran_pod_timer),241,reservation_config,4939,,reserve_cfg
+val bmra access (flexran_pod_timer),241,profile,4940,,access
+val bmra access (flexran_pod_timer),241,robot_tag,4941,,BMRA_Access_Berta
+val bmra access (flexran_pod_timer),241,intel_flexran_type,4942,default,pod
+val bmra access (flexran_pod_timer),241,intel_flexran_mode,4943,default,timer
+val bmra access (flexran_pod_timer),241,sigstore_policy_controller_install,5512,disable sigstore in non-oran config,false
+val bmra access (flexran_pod_timer),241,intel_sriov_fec_operator_enabled,5785,disable operator as false in pod mode,false
+val bmra access (flexran_pod_timer),241,logs_max_size,5928,,41943040
+val bmra access (flexran_pod_timer),241,native_cpu_manager_enabled,6478,a known limitation for flexran spr image,false
+val bmra access (flexran_pod_timer),241,kube_runtime,6497,,containerd
+val bmra access (flexran_host_timer),242,installer,4944,,ra
+val bmra access (flexran_host_timer),242,reservation_client_os,4945,,true
+val bmra access (flexran_host_timer),242,reservation_config,4946,,reserve_cfg
+val bmra access (flexran_host_timer),242,profile,4947,,access
+val bmra access (flexran_host_timer),242,robot_tag,4948,,BMRA_Access_Berta
+val bmra access (flexran_host_timer),242,intel_flexran_type,4949,,host
+val bmra access (flexran_host_timer),242,intel_flexran_mode,4950,default,timer
+val bmra access (flexran_host_timer),242,sbx,5510,disable sbx for SPR/EMR,false
+val bmra access (flexran_host_timer),242,sigstore_policy_controller_install,5511,disable sigstore in non-oran config,false
+val bmra access (flexran_host_timer),242,logs_max_size,5927,,41943040
+val bmra reg_dc (gpu_gas_ffmpeg_no_kmra),247,installer,5077,,ra
+val bmra reg_dc (gpu_gas_ffmpeg_no_kmra),247,reservation_client_os,5078,,true
+val bmra reg_dc (gpu_gas_ffmpeg_no_kmra),247,reservation_config,5079,,reserve_cfg
+val bmra reg_dc (gpu_gas_ffmpeg_no_kmra),247,profile,5080,,regional_dc
+val bmra reg_dc (gpu_gas_ffmpeg_no_kmra),247,robot_tag,5081,,BMRA_Regional_Berta
+val bmra reg_dc (gpu_gas_ffmpeg_no_kmra),247,configure_gpu,5082,enable gpu,true
+val bmra reg_dc (gpu_gas_ffmpeg_no_kmra),247,gas_enabled,5281,enable gas,true
+val bmra reg_dc (gpu_gas_ffmpeg_no_kmra),247,ffmpeg_install_enabled,5385,enable ffmpeg,true
+val bmra reg_dc (gpu_gas_ffmpeg_no_kmra),247,gpu_dp_enabled,5548,enable gpu dp,true
+val bmra reg_dc (gpu_gas_ffmpeg_no_kmra),247,logs_max_size,5970,,41943040
+val bmra reg_dc (gpu_gas_ffmpeg_no_kmra),247,ctk_loadkey_demo,6532,disable kmra,false
+val bmra reg_dc (gpu_gas_ffmpeg_no_kmra),247,pccs,6533,disable kmra,false
+val bmra reg_dc (gpu_gas_ffmpeg_no_kmra),247,apphsm,6534,disable kmra,false
+val bmra reg_dc (gpu_gas_ffmpeg_no_kmra),247,tac,6559,disable kmra,false
+val bmra reg_dc (gpu_gas_ffmpeg_no_kmra),247,gpu_dp_fractional_manager,6562,enable gpu_dp,true
+val bmra reg_dc (gpu_gas_ffmpeg_no_kmra),247,sgx_signer,6600,dependent on sgx/tcs,false
+val bmra reg_dc (gpu_gas_ffmpeg_no_kmra),247,service_mesh_profile,6603,dependent on sgx_signer,default
+val bmra full_nfv (tas-demo_tod_rs_cpu-cp),248,installer,5083,,ra
+val bmra full_nfv (tas-demo_tod_rs_cpu-cp),248,reservation_client_os,5084,,true
+val bmra full_nfv (tas-demo_tod_rs_cpu-cp),248,reservation_config,5085,,reserve_cfg
+val bmra full_nfv (tas-demo_tod_rs_cpu-cp),248,profile,5086,,full_nfv
+val bmra full_nfv (tas-demo_tod_rs_cpu-cp),248,robot_tag,5087,,BMRA_Full_nfv_Berta
+val bmra full_nfv (tas-demo_tod_rs_cpu-cp),248,tas_enable_demo_policy,5137,,true
+val bmra full_nfv (tas-demo_tod_rs_cpu-cp),248,intel_cpu_controlplane.enabled,5549,,true
+val bmra full_nfv (tas-demo_tod_rs_cpu-cp),248,intel_cpu_controlplane.allocator,5550,,numa-namespace-exclusive=2
+val bmra full_nfv (tas-demo_tod_rs_cpu-cp),248,kube_expose_nodeport,5854,expose nodeport,true
+val bmra full_nfv (tas-demo_tod_rs_cpu-cp),248,logs_max_size,5943,,41943040
+val bmra full_nfv (tas-demo_tod_rs_cpu-cp),248,assigned_worknodes,6408,,"ao09-21-fcp,ao09-23-fcp,ao09-25-fcp,ao09-27-fcp"
+val bmra full_nfv (tas-demo_tod_rs_cpu-cp),248,time_of_day.enabled,6606,enable time of day,true
+val bmra full_nfv (tas-demo_tod_rs_cpu-cp),248,storage_nodes,6659,enable remote storage,true
+val bmra full_nfv (tas-demo_tod_rs_cpu-cp),248,local_volume_provisioner_enabled,6660,enable remote storage,false
+val bmra full_nfv (crio_gpu_no_kmra),250,installer,5096,,ra
+val bmra full_nfv (crio_gpu_no_kmra),250,reservation_client_os,5097,,true
+val bmra full_nfv (crio_gpu_no_kmra),250,reservation_config,5098,,reserve_cfg
+val bmra full_nfv (crio_gpu_no_kmra),250,profile,5099,,full_nfv
+val bmra full_nfv (crio_gpu_no_kmra),250,robot_tag,5100,,BMRA_Full_nfv_Berta
+val bmra full_nfv (crio_gpu_no_kmra),250,kube_runtime,5101,,crio
+val bmra full_nfv (crio_gpu_no_kmra),250,configure_gpu,5104,enable gpu,true
+val bmra full_nfv (crio_gpu_no_kmra),250,gpu_dp_enabled,5544,enable gpu dp,true
+val bmra full_nfv (crio_gpu_no_kmra),250,logs_max_size,5950,,41943040
+val bmra full_nfv (crio_gpu_no_kmra),250,kubernetes_power_manager.build_image_locally,6190,,true
+val bmra full_nfv (crio_gpu_no_kmra),250,pccs,6535,disable kmra,false
+val bmra full_nfv (crio_gpu_no_kmra),250,apphsm,6536,disable kmra,false
+val bmra full_nfv (crio_gpu_no_kmra),250,ctk_loadkey_demo,6537,disable kmra,false
+val bmra full_nfv (crio_gpu_no_kmra),250,tac,6555,disable kmra,false
+val bmra full_nfv (crio_gpu_no_kmra),250,gpu_dp_fractional_manager,6560,enable gpu_dp,true
+val bmra full_nfv (crio_gpu_no_kmra),250,sgx_signer,6598,dependent on sgx/tcs,false
+val bmra full_nfv (crio_gpu_no_kmra),250,service_mesh_profile,6601,dependent on sgx_signer,default
+val vmra full_nfv (tas-demo),253,installer,5117,,ra_vm
+val vmra full_nfv (tas-demo),253,reservation_client_os,5118,,true
+val vmra full_nfv (tas-demo),253,reservation_config,5119,,reserve_cfg
+val vmra full_nfv (tas-demo),253,profile,5120,,full_nfv
+val vmra full_nfv (tas-demo),253,robot_tag,5121,,VMRA_Full_nfv_Berta
+val vmra full_nfv (tas-demo),253,vmra,5122,,true
+val vmra full_nfv (tas-demo),253,tas_enable_demo_policy,5138,,true
+val vmra full_nfv (tas-demo),253,logs_max_size,5978,,41943040
+val vmra full_nfv (tas-demo),253,cadvisor,6290,,false
+val bmra on_prem_vss,275,installer,5291,,ra
+val bmra on_prem_vss,275,reservation_client_os,5292,,true
+val bmra on_prem_vss,275,reservation_config,5293,,reserve_cfg
+val bmra on_prem_vss,275,profile,5294,,on_prem_vss
+val bmra on_prem_vss,275,robot_tag,5295,,BMRA_On_prem_vss_Berta
+val bmra on_prem_vss,275,logs_max_size,5967,,41943040
+val bmra on_prem_vss,275,gpu_dp_fractional_manager,6563,gpu_dp,true
+val bmra on_prem_vss,275,unconfirmed_cpu_models,6608,,['4510']
+val bmra on_prem_sdf,290,installer,5460,,ra
+val bmra on_prem_sdf,290,reservation_client_os,5461,,true
+val bmra on_prem_sdf,290,reservation_config,5462,,reserve_cfg
+val bmra on_prem_sdf,290,profile,5463,,on_prem_sw_defined_factory
+val bmra on_prem_sdf,290,robot_tag,5464,,BMRA_On_prem_sdf_Berta
+val bmra on_prem_sdf,290,logs_max_size,5966,,41943040
+val bmra on_prem_sdf,290,intel_eci_enabled,6423,enable eci,true
+val bmra on_prem (fpga),291,installer,5467,,ra
+val bmra on_prem (fpga),291,reservation_client_os,5468,,true
+val bmra on_prem (fpga),291,reservation_config,5469,,reserve_cfg
+val bmra on_prem (fpga),291,profile,5470,,on_prem
+val bmra on_prem (fpga),291,robot_tag,5471,,BMRA_On_prem_Berta
+val bmra on_prem (fpga),291,configure_fpga,5472,enable fpga,true
+val bmra on_prem (fpga),291,logs_max_size,5963,,41943040
+val bmra access (oran),293,installer,5479,,ra
+val bmra access (oran),293,reservation_client_os,5480,,true
+val bmra access (oran),293,reservation_config,5481,,reserve_cfg
+val bmra access (oran),293,profile,5482,,access
+val bmra access (oran),293,robot_tag,5483,,BMRA_Access_Berta
+val bmra access (oran),293,sigstore_policy_controller_install,5515,enable local registry for sigstore,true
+val bmra access (oran),293,oran,5533,enable oran,true
+val bmra access (oran),293,intel_sriov_fec_operator_enabled,5535,,false
+val bmra access (oran),293,intel_flexran_enabled,5536,,false
+val bmra access (oran),293,pccs,5538,enable kmra,true
+val bmra access (oran),293,apphsm,5539,enable kmra,true
+val bmra access (oran),293,sgx_dp,5540,enable sgx_dp,true
+val bmra access (oran),293,sgx,5541,enable sgx,true
+val bmra access (oran),293,logs_max_size,5931,,41943040
+val bmra access (oran),293,kube_runtime,6541,,docker
+val bmra full_nfv (docker_no_sgx),299,installer,5563,,ra
+val bmra full_nfv (docker_no_sgx),299,reservation_client_os,5564,,true
+val bmra full_nfv (docker_no_sgx),299,reservation_config,5565,,reserve_cfg
+val bmra full_nfv (docker_no_sgx),299,profile,5566,,full_nfv
+val bmra full_nfv (docker_no_sgx),299,robot_tag,5567,,BMRA_Full_nfv_Berta
+val bmra full_nfv (docker_no_sgx),299,sgx,5568,,false
+val bmra full_nfv (docker_no_sgx),299,sgx_dp,5569,,false
+val bmra full_nfv (docker_no_sgx),299,pccs,5570,dependent on sgx,false
+val bmra full_nfv (docker_no_sgx),299,apphsm,5571,dependent on sgx,false
+val bmra full_nfv (docker_no_sgx),299,ctk_loadkey_demo,5572,dependent on sgx,false
+val bmra full_nfv (docker_no_sgx),299,sgx_signer,5573,dependent on sgx/tcs,false
+val bmra full_nfv (docker_no_sgx),299,tac,5574,dependent on sgx/kmra/tcs,false
+val bmra full_nfv (docker_no_sgx),299,tcs,5575,dependent on sgx,false
+val bmra full_nfv (docker_no_sgx),299,service_mesh_profile,5576,dependent on sgx_signer,default
+val bmra full_nfv (docker_no_sgx),299,kube_runtime,5578,,docker
+val bmra full_nfv (docker_no_sgx),299,logs_max_size,5948,,41943040
+val bmra full_nfv (docker_no_sgx),299,kubernetes_power_manager.build_image_locally,6195,,true
+val bmra full_nfv (docker_no_sgx),299,assigned_worknodes,6398,,"ao09-21-fcp,ao09-23-fcp,ao09-25-fcp,ao09-27-fcp"
+val bmra full_nfv (docker_no_sgx),299,kubevirt_enabled,6565,no support for docker,false
+val bmra full_nfv (crio_no_sgx),300,installer,5579,,ra
+val bmra full_nfv (crio_no_sgx),300,reservation_client_os,5580,,true
+val bmra full_nfv (crio_no_sgx),300,reservation_config,5581,,reserve_cfg
+val bmra full_nfv (crio_no_sgx),300,profile,5582,,full_nfv
+val bmra full_nfv (crio_no_sgx),300,robot_tag,5583,,BMRA_Full_nfv_Berta
+val bmra full_nfv (crio_no_sgx),300,sgx,5584,,false
+val bmra full_nfv (crio_no_sgx),300,sgx_dp,5585,,false
+val bmra full_nfv (crio_no_sgx),300,pccs,5586,dependent on sgx,false
+val bmra full_nfv (crio_no_sgx),300,apphsm,5587,dependent on sgx,false
+val bmra full_nfv (crio_no_sgx),300,ctk_loadkey_demo,5588,dependent on sgx,false
+val bmra full_nfv (crio_no_sgx),300,sgx_signer,5589,dependent on sgx/tcs,false
+val bmra full_nfv (crio_no_sgx),300,tac,5590,dependent on sgx/kmra/tcs,false
+val bmra full_nfv (crio_no_sgx),300,tcs,5591,dependent on sgx,false
+val bmra full_nfv (crio_no_sgx),300,service_mesh_profile,5592,dependent on sgx_signer,default
+val bmra full_nfv (crio_no_sgx),300,kube_runtime,5594,,crio
+val bmra full_nfv (crio_no_sgx),300,logs_max_size,5953,,41943040
+val bmra full_nfv (crio_no_sgx),300,kubernetes_power_manager.build_image_locally,6196,,true
+val bmra full_nfv (crio_no_sgx),300,assigned_worknodes,6402,,"ao09-21-fcp,ao09-23-fcp,ao09-25-fcp,ao09-27-fcp"
+val bmra reg_dc (no_sgx),301,installer,5595,,ra
+val bmra reg_dc (no_sgx),301,reservation_client_os,5596,,true
+val bmra reg_dc (no_sgx),301,reservation_config,5597,,reserve_cfg
+val bmra reg_dc (no_sgx),301,profile,5598,,regional_dc
+val bmra reg_dc (no_sgx),301,robot_tag,5599,,BMRA_Regional_Berta
+val bmra reg_dc (no_sgx),301,sgx,5600,,false
+val bmra reg_dc (no_sgx),301,sgx_dp,5601,,false
+val bmra reg_dc (no_sgx),301,pccs,5602,dependent on sgx,false
+val bmra reg_dc (no_sgx),301,apphsm,5603,dependent on sgx,false
+val bmra reg_dc (no_sgx),301,ctk_loadkey_demo,5604,dependent on sgx,false
+val bmra reg_dc (no_sgx),301,sgx_signer,5605,dependent on sgx/tcs,false
+val bmra reg_dc (no_sgx),301,tac,5606,dependent on sgx/kmra/tcs,false
+val bmra reg_dc (no_sgx),301,tcs,5607,dependent on sgx,false
+val bmra reg_dc (no_sgx),301,service_mesh_profile,5608,dependent on sgx_signer,default
+val bmra reg_dc (no_sgx),301,logs_max_size,5971,,41943040
+val bmra on_prem (no_sgx),302,installer,5610,,ra
+val bmra on_prem (no_sgx),302,reservation_client_os,5611,,true
+val bmra on_prem (no_sgx),302,reservation_config,5612,,reserve_cfg
+val bmra on_prem (no_sgx),302,profile,5613,,on_prem
+val bmra on_prem (no_sgx),302,robot_tag,5614,,BMRA_On_prem_Berta
+val bmra on_prem (no_sgx),302,sgx,5615,,false
+val bmra on_prem (no_sgx),302,sgx_dp,5616,,false
+val bmra on_prem (no_sgx),302,pccs,5617,dependent on sgx,false
+val bmra on_prem (no_sgx),302,apphsm,5618,dependent on sgx,false
+val bmra on_prem (no_sgx),302,ctk_loadkey_demo,5619,dependent on sgx,false
+val bmra on_prem (no_sgx),302,sgx_signer,5620,dependent on sgx/tcs,false
+val bmra on_prem (no_sgx),302,tac,5621,dependent on sgx/kmra/tcs,false
+val bmra on_prem (no_sgx),302,tcs,5622,dependent on sgx,false
+val bmra on_prem (no_sgx),302,service_mesh_profile,5623,dependent on sgx_signer,default
+val bmra on_prem (no_sgx),302,logs_max_size,5965,,41943040
+val bmra full_nfv (docker_qat_intree),330,installer,6032,,ra
+val bmra full_nfv (docker_qat_intree),330,reservation_client_os,6033,,true
+val bmra full_nfv (docker_qat_intree),330,reservation_config,6034,,reserve_cfg
+val bmra full_nfv (docker_qat_intree),330,profile,6035,,full_nfv
+val bmra full_nfv (docker_qat_intree),330,robot_tag,6036,,BMRA_Full_nfv_Berta
+val bmra full_nfv (docker_qat_intree),330,kube_runtime,6037,,docker
+val bmra full_nfv (docker_qat_intree),330,logs_max_size,6039,,41943040
+val bmra full_nfv (docker_qat_intree),330,kubernetes_power_manager.build_image_locally,6198,,true
+val bmra full_nfv (docker_qat_intree),330,assigned_worknodes,6399,,"ao09-21-fcp,ao09-23-fcp,ao09-25-fcp,ao09-27-fcp"
+val bmra full_nfv (docker_qat_intree),330,kubevirt_enabled,6566,no support for docker,false
+val bmra full_nfv (crio_qat_intree),331,installer,6043,,ra
+val bmra full_nfv (crio_qat_intree),331,reservation_client_os,6044,,true
+val bmra full_nfv (crio_qat_intree),331,reservation_config,6045,,reserve_cfg
+val bmra full_nfv (crio_qat_intree),331,profile,6046,,full_nfv
+val bmra full_nfv (crio_qat_intree),331,robot_tag,6047,,BMRA_Full_nfv_Berta
+val bmra full_nfv (crio_qat_intree),331,kube_runtime,6048,,crio
+val bmra full_nfv (crio_qat_intree),331,logs_max_size,6050,,41943040
+val bmra full_nfv (crio_qat_intree),331,kubernetes_power_manager.build_image_locally,6199,,true
+val bmra full_nfv (crio_qat_intree),331,assigned_worknodes,6403,,"ao09-21-fcp,ao09-23-fcp,ao09-25-fcp,ao09-27-fcp"
+val bmra full_nfv (tas-demo_tod_rs_qat_intree),332,installer,6055,,ra
+val bmra full_nfv (tas-demo_tod_rs_qat_intree),332,reservation_client_os,6056,,true
+val bmra full_nfv (tas-demo_tod_rs_qat_intree),332,reservation_config,6057,,reserve_cfg
+val bmra full_nfv (tas-demo_tod_rs_qat_intree),332,profile,6058,,full_nfv
+val bmra full_nfv (tas-demo_tod_rs_qat_intree),332,robot_tag,6059,,BMRA_Full_nfv_Berta
+val bmra full_nfv (tas-demo_tod_rs_qat_intree),332,tas_enable_demo_policy,6061,,true
+val bmra full_nfv (tas-demo_tod_rs_qat_intree),332,logs_max_size,6062,,41943040
+val bmra full_nfv (tas-demo_tod_rs_qat_intree),332,assigned_worknodes,6409,,"ao09-21-fcp,ao09-23-fcp,ao09-25-fcp,ao09-27-fcp"
+val bmra full_nfv (tas-demo_tod_rs_qat_intree),332,time_of_day.enabled,6607,enable time of day,true
+val bmra full_nfv (tas-demo_tod_rs_qat_intree),332,storage_nodes,6661,enable remote storage,true
+val bmra full_nfv (tas-demo_tod_rs_qat_intree),332,local_volume_provisioner_enabled,6662,enable remote storage,false
+val bmra on_prem (qat_intree),333,installer,6066,,ra
+val bmra on_prem (qat_intree),333,reservation_client_os,6067,,true
+val bmra on_prem (qat_intree),333,reservation_config,6068,,reserve_cfg
+val bmra on_prem (qat_intree),333,profile,6069,,on_prem
+val bmra on_prem (qat_intree),333,robot_tag,6070,,BMRA_On_prem_Berta
+val bmra on_prem (qat_intree),333,logs_max_size,6071,,41943040
+val bmra remote_fp (qat_intree),334,installer,6075,,ra
+val bmra remote_fp (qat_intree),334,reservation_client_os,6076,,true
+val bmra remote_fp (qat_intree),334,reservation_config,6077,,reserve_cfg
+val bmra remote_fp (qat_intree),334,profile,6078,,remote_fp
+val bmra remote_fp (qat_intree),334,robot_tag,6079,,BMRA_Remotefp_Berta
+val bmra remote_fp (qat_intree),334,logs_max_size,6081,,41943040
+val vmra on_prem (qat_intree_no_sgx),335,installer,6085,,ra_vm
+val vmra on_prem (qat_intree_no_sgx),335,reservation_client_os,6086,,true
+val vmra on_prem (qat_intree_no_sgx),335,reservation_config,6087,,reserve_cfg
+val vmra on_prem (qat_intree_no_sgx),335,profile,6088,,on_prem
+val vmra on_prem (qat_intree_no_sgx),335,robot_tag,6089,,VMRA_On_prem_Berta
+val vmra on_prem (qat_intree_no_sgx),335,vmra,6090,,true
+val vmra on_prem (qat_intree_no_sgx),335,sgx,6091,,false
+val vmra on_prem (qat_intree_no_sgx),335,sgx_dp,6092,,false
+val vmra on_prem (qat_intree_no_sgx),335,ctk_loadkey_demo,6093,dependent on sgx,false
+val vmra on_prem (qat_intree_no_sgx),335,pccs,6094,dependent on sgx,false
+val vmra on_prem (qat_intree_no_sgx),335,apphsm,6095,dependent on sgx,false
+val vmra on_prem (qat_intree_no_sgx),335,sgx_signer,6096,dependent on sgx/kmra,false
+val vmra on_prem (qat_intree_no_sgx),335,tac,6097,dependent on sgx/kmra,false
+val vmra on_prem (qat_intree_no_sgx),335,tcs,6098,dependent on sgx/kmra,false
+val vmra on_prem (qat_intree_no_sgx),335,service_mesh_profile,6099,dependent on sgx_signer,default
+val vmra on_prem (qat_intree_no_sgx),335,logs_max_size,6101,,41943040
+val vmra on_prem (qat_intree_no_sgx),335,update_qat_drivers,6543,force qat intree,false
+val vmra remote_fp (qat_intree_no_sgx),336,installer,6103,,ra_vm
+val vmra remote_fp (qat_intree_no_sgx),336,reservation_client_os,6104,,true
+val vmra remote_fp (qat_intree_no_sgx),336,reservation_config,6105,,reserve_cfg
+val vmra remote_fp (qat_intree_no_sgx),336,profile,6106,,remote_fp
+val vmra remote_fp (qat_intree_no_sgx),336,robot_tag,6107,,VMRA_Remotefp_Berta
+val vmra remote_fp (qat_intree_no_sgx),336,vmra,6108,,true
+val vmra remote_fp (qat_intree_no_sgx),336,sgx,6109,,false
+val vmra remote_fp (qat_intree_no_sgx),336,sgx_dp,6110,,false
+val vmra remote_fp (qat_intree_no_sgx),336,ctk_loadkey_demo,6111,dependent on sgx,false
+val vmra remote_fp (qat_intree_no_sgx),336,pccs,6112,dependent on sgx,false
+val vmra remote_fp (qat_intree_no_sgx),336,apphsm,6113,dependent on sgx,false
+val vmra remote_fp (qat_intree_no_sgx),336,sgx_signer,6114,dependent on sgx/kmra,false
+val vmra remote_fp (qat_intree_no_sgx),336,tac,6115,dependent on sgx/kmra,false
+val vmra remote_fp (qat_intree_no_sgx),336,tcs,6116,dependent on sgx/kmra,false
+val vmra remote_fp (qat_intree_no_sgx),336,service_mesh_profile,6117,dependent on sgx_signer,default
+val vmra remote_fp (qat_intree_no_sgx),336,logs_max_size,6119,,41943040
+val vmra remote_fp (qat_intree_no_sgx),336,update_qat_drivers,6597,force qat intree,false
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,installer,6121,,ra_vm
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,reservation_client_os,6122,,true
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,reservation_config,6123,,reserve_cfg
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,profile,6124,,full_nfv
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,robot_tag,6125,,VMRA_Full_nfv_Berta
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,vmra,6126,,true
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,sgx,6127,,false
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,sgx_dp,6128,,false
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,apphsm,6129,dependent on sgx,false
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,ctk_loadkey_demo,6130,dependent on sgx,false
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,pccs,6131,dependent on sgx,false
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,tcs,6132,dependent on sgx/kmra,false
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,tac,6133,dependent on sgx/kmra,false
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,sgx_signer,6134,dependent on sgx/kmra,false
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,tas_enable_demo_policy,6135,,true
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,service_mesh_profile,6137,dependent on sgx_signer,default
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,logs_max_size,6139,,41943040
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,cadvisor,6292,,false
+val vmra full_nfv (tas-demo_qat_intree_no_sgx),337,update_qat_drivers,6596,force qat intree,false
+val vmra full_nfv (qat_intree_no_sgx),338,installer,6141,,ra_vm
+val vmra full_nfv (qat_intree_no_sgx),338,reservation_client_os,6142,,true
+val vmra full_nfv (qat_intree_no_sgx),338,reservation_config,6143,,reserve_cfg
+val vmra full_nfv (qat_intree_no_sgx),338,profile,6144,,full_nfv
+val vmra full_nfv (qat_intree_no_sgx),338,robot_tag,6145,,VMRA_Full_nfv_Berta
+val vmra full_nfv (qat_intree_no_sgx),338,vmra,6146,,true
+val vmra full_nfv (qat_intree_no_sgx),338,sgx,6147,,false
+val vmra full_nfv (qat_intree_no_sgx),338,sgx_dp,6148,,false
+val vmra full_nfv (qat_intree_no_sgx),338,apphsm,6149,dependent on sgx,false
+val vmra full_nfv (qat_intree_no_sgx),338,ctk_loadkey_demo,6150,dependent on sgx,false
+val vmra full_nfv (qat_intree_no_sgx),338,pccs,6151,dependent on sgx,false
+val vmra full_nfv (qat_intree_no_sgx),338,tcs,6152,dependent on sgx/kmra,false
+val vmra full_nfv (qat_intree_no_sgx),338,tac,6153,dependent on sgx/kmra,false
+val vmra full_nfv (qat_intree_no_sgx),338,sgx_signer,6154,dependent on sgx/kmra,false
+val vmra full_nfv (qat_intree_no_sgx),338,service_mesh_profile,6155,dependent on sgx_signer,default
+val vmra full_nfv (qat_intree_no_sgx),338,logs_max_size,6157,,41943040
+val vmra full_nfv (qat_intree_no_sgx),338,cadvisor,6289,,false
+val vmra full_nfv (qat_intree_no_sgx),338,update_qat_drivers,6595,force qat intree,false
+val bmra remote_fp (linkerd_ido),343,installer,6224,,ra
+val bmra remote_fp (linkerd_ido),343,reservation_client_os,6225,,true
+val bmra remote_fp (linkerd_ido),343,reservation_config,6226,,reserve_cfg
+val bmra remote_fp (linkerd_ido),343,profile,6227,,remote_fp
+val bmra remote_fp (linkerd_ido),343,robot_tag,6228,,BMRA_Remotefp_Berta
+val bmra remote_fp (linkerd_ido),343,logs_max_size,6230,,41943040
+val bmra remote_fp (linkerd_ido),343,linkerd_service_mesh,6231,,true
+val bmra remote_fp (linkerd_ido),343,ido.enabled,6645,enable ido,true
+val bmra remote_fp (linkerd_ido),343,ido.demo_workload,6646,enable ido,true
+val bmra remote_fp (istio_intel_preview),348,installer,6293,,ra
+val bmra remote_fp (istio_intel_preview),348,reservation_client_os,6294,,true
+val bmra remote_fp (istio_intel_preview),348,reservation_config,6295,,reserve_cfg
+val bmra remote_fp (istio_intel_preview),348,profile,6296,,remote_fp
+val bmra remote_fp (istio_intel_preview),348,robot_tag,6297,,BMRA_Remotefp_Berta
+val bmra remote_fp (istio_intel_preview),348,istio_mesh_intel_preview,6298,,true
+val bmra remote_fp (istio_intel_preview),348,logs_max_size,6299,,41943040
+val vmra remote_fp (istio_intel_preview),349,installer,6301,,ra_vm
+val vmra remote_fp (istio_intel_preview),349,reservation_client_os,6302,,true
+val vmra remote_fp (istio_intel_preview),349,reservation_config,6303,,reserve_cfg
+val vmra remote_fp (istio_intel_preview),349,profile,6304,,remote_fp
+val vmra remote_fp (istio_intel_preview),349,robot_tag,6305,,VMRA_Remotefp_Berta
+val vmra remote_fp (istio_intel_preview),349,vmra,6306,,true
+val vmra remote_fp (istio_intel_preview),349,logs_max_size,6308,,41943040
+val vmra remote_fp (istio_intel_preview),349,istio_mesh_intel_preview,6309,,true
+val vmra remote_fp (linkerd),351,installer,6329,,ra_vm
+val vmra remote_fp (linkerd),351,reservation_client_os,6330,,true
+val vmra remote_fp (linkerd),351,reservation_config,6331,,reserve_cfg
+val vmra remote_fp (linkerd),351,profile,6332,,remote_fp
+val vmra remote_fp (linkerd),351,robot_tag,6333,,VMRA_Remotefp_Berta
+val vmra remote_fp (linkerd),351,vmra,6334,,true
+val vmra remote_fp (linkerd),351,logs_max_size,6336,,41943040
+val vmra remote_fp (linkerd),351,linkerd_service_mesh,6337,,true
+val vmra remote_fp (linkerd_no_sgx),352,installer,6338,,ra_vm
+val vmra remote_fp (linkerd_no_sgx),352,reservation_client_os,6339,,true
+val vmra remote_fp (linkerd_no_sgx),352,reservation_config,6340,,reserve_cfg
+val vmra remote_fp (linkerd_no_sgx),352,profile,6341,,remote_fp
+val vmra remote_fp (linkerd_no_sgx),352,robot_tag,6342,,VMRA_Remotefp_Berta
+val vmra remote_fp (linkerd_no_sgx),352,vmra,6343,,true
+val vmra remote_fp (linkerd_no_sgx),352,sgx,6344,,false
+val vmra remote_fp (linkerd_no_sgx),352,sgx_dp,6345,,false
+val vmra remote_fp (linkerd_no_sgx),352,ctk_loadkey_demo,6346,dependent on sgx,false
+val vmra remote_fp (linkerd_no_sgx),352,pccs,6347,dependent on sgx,false
+val vmra remote_fp (linkerd_no_sgx),352,apphsm,6348,dependent on sgx,false
+val vmra remote_fp (linkerd_no_sgx),352,sgx_signer,6349,dependent on sgx/kmra,false
+val vmra remote_fp (linkerd_no_sgx),352,tac,6350,dependent on sgx/kmra,false
+val vmra remote_fp (linkerd_no_sgx),352,tcs,6351,dependent on sgx/kmra,false
+val vmra remote_fp (linkerd_no_sgx),352,service_mesh_profile,6352,dependent on sgx_signer,default
+val vmra remote_fp (linkerd_no_sgx),352,logs_max_size,6354,,41943040
+val vmra remote_fp (linkerd_no_sgx),352,linkerd_service_mesh,6356,,true
+val vmra remote_fp (istio_intel_preview_no_sgx),353,installer,6357,,ra_vm
+val vmra remote_fp (istio_intel_preview_no_sgx),353,reservation_client_os,6358,,true
+val vmra remote_fp (istio_intel_preview_no_sgx),353,reservation_config,6359,,reserve_cfg
+val vmra remote_fp (istio_intel_preview_no_sgx),353,profile,6360,,remote_fp
+val vmra remote_fp (istio_intel_preview_no_sgx),353,robot_tag,6361,,VMRA_Remotefp_Berta
+val vmra remote_fp (istio_intel_preview_no_sgx),353,vmra,6362,,true
+val vmra remote_fp (istio_intel_preview_no_sgx),353,sgx,6363,,false
+val vmra remote_fp (istio_intel_preview_no_sgx),353,sgx_dp,6364,,false
+val vmra remote_fp (istio_intel_preview_no_sgx),353,ctk_loadkey_demo,6365,dependent on sgx,false
+val vmra remote_fp (istio_intel_preview_no_sgx),353,pccs,6366,dependent on sgx,false
+val vmra remote_fp (istio_intel_preview_no_sgx),353,apphsm,6367,dependent on sgx,false
+val vmra remote_fp (istio_intel_preview_no_sgx),353,sgx_signer,6368,dependent on sgx/kmra,false
+val vmra remote_fp (istio_intel_preview_no_sgx),353,tac,6369,dependent on sgx/kmra,false
+val vmra remote_fp (istio_intel_preview_no_sgx),353,tcs,6370,dependent on sgx/kmra,false
+val vmra remote_fp (istio_intel_preview_no_sgx),353,service_mesh_profile,6371,dependent on sgx_signer,default
+val vmra remote_fp (istio_intel_preview_no_sgx),353,logs_max_size,6373,,41943040
+val vmra remote_fp (istio_intel_preview_no_sgx),353,istio_mesh_intel_preview,6375,,true
+val bmra full_nfv (qat_intree),355,installer,6387,,ra
+val bmra full_nfv (qat_intree),355,reservation_client_os,6388,,true
+val bmra full_nfv (qat_intree),355,reservation_config,6389,,reserve_cfg
+val bmra full_nfv (qat_intree),355,profile,6390,,full_nfv
+val bmra full_nfv (qat_intree),355,robot_tag,6391,,BMRA_Full_nfv_Berta
+val bmra full_nfv (qat_intree),355,logs_max_size,6393,,41943040
+val bmra full_nfv (qat_intree),355,assigned_worknodes,6406,,"ao09-21-fcp,ao09-23-fcp,ao09-25-fcp,ao09-27-fcp"
+val bmra full_nfv (qat_intree),355,unconfirmed_cpu_models,6610,,"['5418N', '8468H']"
+val bmra full_nfv (acpi_imtl_tod),357,installer,6429,,ra
+val bmra full_nfv (acpi_imtl_tod),357,reservation_client_os,6430,,true
+val bmra full_nfv (acpi_imtl_tod),357,reservation_config,6431,,reserve_cfg
+val bmra full_nfv (acpi_imtl_tod),357,profile,6432,,full_nfv
+val bmra full_nfv (acpi_imtl_tod),357,robot_tag,6433,,BMRA_Full_nfv_Berta
+val bmra full_nfv (acpi_imtl_tod),357,logs_max_size,6435,,41943040
+val bmra full_nfv (acpi_imtl_tod),357,assigned_worknodes,6437,,"ao09-21-fcp,ao09-23-fcp,ao09-25-fcp,ao09-27-fcp"
+val bmra full_nfv (acpi_imtl_tod),357,frequency_scaling_driver,6460,,acpi_cpufreq
+val bmra full_nfv (acpi_imtl_tod),357,intel_media_transport_library_enabled,6486,enable imtl,true
+val bmra full_nfv (acpi_imtl_tod),357,update_nic_firmware,6487,enable imtl,true
+val bmra full_nfv (acpi_imtl_tod),357,time_of_day.enabled,6604,enable time of day,true
+val bmra full_nfv (acpi_imtl_tod_qat_intree),359,installer,6450,,ra
+val bmra full_nfv (acpi_imtl_tod_qat_intree),359,reservation_client_os,6451,,true
+val bmra full_nfv (acpi_imtl_tod_qat_intree),359,reservation_config,6452,,reserve_cfg
+val bmra full_nfv (acpi_imtl_tod_qat_intree),359,profile,6453,,full_nfv
+val bmra full_nfv (acpi_imtl_tod_qat_intree),359,robot_tag,6454,,BMRA_Full_nfv_Berta
+val bmra full_nfv (acpi_imtl_tod_qat_intree),359,logs_max_size,6456,,41943040
+val bmra full_nfv (acpi_imtl_tod_qat_intree),359,assigned_worknodes,6459,,"ao09-21-fcp,ao09-23-fcp,ao09-25-fcp,ao09-27-fcp"
+val bmra full_nfv (acpi_imtl_tod_qat_intree),359,frequency_scaling_driver,6462,,acpi_cpufreq
+val bmra full_nfv (acpi_imtl_tod_qat_intree),359,update_nic_firmware,6488,enable imtl,true
+val bmra full_nfv (acpi_imtl_tod_qat_intree),359,intel_media_transport_library_enabled,6489,enable imtl,true
+val bmra full_nfv (acpi_imtl_tod_qat_intree),359,time_of_day.enabled,6605,enable time of day,true
+val bmra access (flexran_pod_timer_rke2),360,installer,6463,,ra
+val bmra access (flexran_pod_timer_rke2),360,reservation_client_os,6464,,true
+val bmra access (flexran_pod_timer_rke2),360,reservation_config,6465,,reserve_cfg
+val bmra access (flexran_pod_timer_rke2),360,profile,6466,,access
+val bmra access (flexran_pod_timer_rke2),360,robot_tag,6467,,BMRA_Access_Berta
+val bmra access (flexran_pod_timer_rke2),360,kube_runtime,6468,,containerd
+val bmra access (flexran_pod_timer_rke2),360,kube_provisioner,6469,,rke2
+val bmra access (flexran_pod_timer_rke2),360,intel_flexran_type,6470,default,pod
+val bmra access (flexran_pod_timer_rke2),360,intel_flexran_mode,6471,default,timer
+val bmra access (flexran_pod_timer_rke2),360,sigstore_policy_controller_install,6472,disable sigstore in non-oran config,false
+val bmra access (flexran_pod_timer_rke2),360,intel_sriov_fec_operator_enabled,6473,disable operator as false in pod mode,false
+val bmra access (flexran_pod_timer_rke2),360,logs_max_size,6474,,41943040
+val bmra access (flexran_pod_timer_rke2),360,native_cpu_manager_enabled,6475,a known limitation for flexran spr image,false
+val vmra basic (x_11),361,installer,6479,,ra_vm
+val vmra basic (x_11),361,reservation_client_os,6480,,true
+val vmra basic (x_11),361,reservation_config,6481,,reserve_cfg
+val vmra basic (x_11),361,profile,6482,,basic
+val vmra basic (x_11),361,robot_tag,6483,,VMRA_BASIC_Berta
+val vmra basic (x_11),361,vmra,6484,,true
+val vmra basic (x_11),361,logs_max_size,6485,,41943040
+val bmra remote_fp_clone,368,installer,6569,,ra
+val bmra remote_fp_clone,368,reservation_client_os,6570,,true
+val bmra remote_fp_clone,368,reservation_config,6571,,reserve_cfg
+val bmra remote_fp_clone,368,profile,6572,,remote_fp
+val bmra remote_fp_clone,368,robot_tag,6573,,BMRA_Remotefp_Berta
+val bmra remote_fp_clone,368,logs_max_size,6574,,41943040
+val bmra full_nfv (vpp),369,installer,6575,,ra
+val bmra full_nfv (vpp),369,reservation_client_os,6576,,true
+val bmra full_nfv (vpp),369,reservation_config,6577,,reserve_cfg
+val bmra full_nfv (vpp),369,profile,6578,,full_nfv
+val bmra full_nfv (vpp),369,robot_tag,6579,,BMRA_Full_nfv_Berta
+val bmra full_nfv (vpp),369,logs_max_size,6580,,41943040
+val bmra full_nfv (vpp),369,example_net_attach_defs.userspace_ovs_dpdk,6581,enable vpp,false
+val bmra full_nfv (vpp),369,example_net_attach_defs.userspace_vpp,6582,enable vpp,true
+val bmra full_nfv (vpp),369,default_hugepage_size,6583,enable vpp,2M
+val bmra full_nfv (vpp),369,userspace_cni.vswitch,6584,enable vpp,vpp
+val bmra edge_ready,372,installer,6647,,ra
+val bmra edge_ready,372,reservation_client_os,6648,,true
+val bmra edge_ready,372,reservation_config,6649,,reserve_cfg
+val bmra edge_ready,372,profile,6650,,edge_ready
+val bmra edge_ready,372,robot_tag,6651,,BMRA_Edge_Ready_Berta
+val bmra edge_ready,372,logs_max_size,6652,,41943040
+val bmra edge_ready,372,update_nic_firmware,6653,,true
+val vmra on_prem (no_sgx),373,installer,6663,,ra_vm
+val vmra on_prem (no_sgx),373,reservation_client_os,6664,,true
+val vmra on_prem (no_sgx),373,reservation_config,6665,,reserve_cfg
+val vmra on_prem (no_sgx),373,profile,6666,,on_prem
+val vmra on_prem (no_sgx),373,robot_tag,6667,,VMRA_On_prem_Berta
+val vmra on_prem (no_sgx),373,vmra,6668,,true
+val vmra on_prem (no_sgx),373,sgx,6669,,false
+val vmra on_prem (no_sgx),373,sgx_dp,6670,,false
+val vmra on_prem (no_sgx),373,ctk_loadkey_demo,6671,dependent on sgx,false
+val vmra on_prem (no_sgx),373,pccs,6672,dependent on sgx,false
+val vmra on_prem (no_sgx),373,apphsm,6673,dependent on sgx,false
+val vmra on_prem (no_sgx),373,sgx_signer,6674,dependent on sgx/kmra,false
+val vmra on_prem (no_sgx),373,tac,6675,dependent on sgx/kmra,false
+val vmra on_prem (no_sgx),373,tcs,6676,dependent on sgx/kmra,false
+val vmra on_prem (no_sgx),373,service_mesh_profile,6677,dependent on sgx_signer,default
+val vmra on_prem (no_sgx),373,logs_max_size,6678,,41943040
+val vmra remote_fp (no_sgx),374,installer,6680,,ra_vm
+val vmra remote_fp (no_sgx),374,reservation_client_os,6681,,true
+val vmra remote_fp (no_sgx),374,reservation_config,6682,,reserve_cfg
+val vmra remote_fp (no_sgx),374,profile,6683,,remote_fp
+val vmra remote_fp (no_sgx),374,robot_tag,6684,,VMRA_Remotefp_Berta
+val vmra remote_fp (no_sgx),374,vmra,6685,,true
+val vmra remote_fp (no_sgx),374,sgx,6686,,false
+val vmra remote_fp (no_sgx),374,sgx_dp,6687,,false
+val vmra remote_fp (no_sgx),374,ctk_loadkey_demo,6688,dependent on sgx,false
+val vmra remote_fp (no_sgx),374,pccs,6689,dependent on sgx,false
+val vmra remote_fp (no_sgx),374,apphsm,6690,dependent on sgx,false
+val vmra remote_fp (no_sgx),374,sgx_signer,6691,dependent on sgx/kmra,false
+val vmra remote_fp (no_sgx),374,tac,6692,dependent on sgx/kmra,false
+val vmra remote_fp (no_sgx),374,tcs,6693,dependent on sgx/kmra,false
+val vmra remote_fp (no_sgx),374,service_mesh_profile,6694,dependent on sgx_signer,default
+val vmra remote_fp (no_sgx),374,logs_max_size,6695,,41943040
